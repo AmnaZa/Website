@@ -18,7 +18,7 @@ onLoad(function(){
 	// url: http://roku-mehari.rhcloud.com/uploads/gallery.xml
 	// var gallerydata = "http://roku-mehari.rhcloud.com/uploads/gallery.xml";
 	//var gallerydata = "http://services.mediamind.com/apache/VAST/DV_Allow_VAST.xml";
-	var gallerydata = './gallery_dynamic.xml';
+	var gallerydata = './gallery.xml';
 
 	var client = new XMLHttpRequest();
 	client.onreadystatechange = handler;
